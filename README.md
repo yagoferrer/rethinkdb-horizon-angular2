@@ -1,4 +1,4 @@
-# RethinkDB Horizon Angular2
+# RethinkDB Horizon and Angular2
 Guide how to use RethinkDB Horizon.js and Angular 2
 
 ##Mac OSX
