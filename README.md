@@ -86,7 +86,15 @@ You can use it in your components like this
 import { Component, OnInit } from '@angular/core';
 import { HorizonService } from './horizon.service';
 
-export class MyAppComponent implements OnInit {
+@Component({
+  moduleId: module.id,
+  selector: 'app',
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css'],
+  providers: [HorizonService]
+})
+
+export class AppComponent implements OnInit {
   list = [];
   constructor(private horizonService: HorizonService) {}
   ngOnInit() {    
