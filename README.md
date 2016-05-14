@@ -1,5 +1,5 @@
-# RethinkDB Horizon and Angular2
-Guide how to use RethinkDB Horizon.js and Angular 2
+# RethinkDB + Horizon + Angular2
+Guide how to use RethinkDB, Horizon and Angular 2
 
 ##Mac OSX
 Install RethinkDB using [brew](http://brew.sh/)
