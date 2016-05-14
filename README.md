@@ -85,7 +85,7 @@ export class HorizonService {
 }
 ```
 
-Then you can use it in your components like this
+You can use it in your components like this
 ```typescript
 export class MyAppComponent implements OnInit {
   list = [];
