@@ -87,13 +87,9 @@ export class HorizonService {
 
 Then you can use it in your components like this
 ```typescript
-export class BookmarksAppComponent implements OnInit {
-  
+export class MyAppComponent implements OnInit {
   list = [];
-    
-  constructor(private horizonService: HorizonService) {           
-  }
-  
+  constructor(private horizonService: HorizonService) {}
   ngOnInit() {    
     this.horizonService.connect().then(()=> {      
       this.horizonService.horizon('my_table').watch().subscribe((result)=> {
