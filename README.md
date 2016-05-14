@@ -68,10 +68,6 @@ export class HorizonService {
   public horizon: any;
   status: {} | Boolean = false;
 
-  constructor() {    
-    this.connect();   
-  }
- 
   connect() {     
     this.horizon = Horizon({ host: '127.0.0.1:8181'});    
     return new Promise((resolve, reject)=> {
