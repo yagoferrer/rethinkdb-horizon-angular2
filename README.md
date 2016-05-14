@@ -83,6 +83,9 @@ export class HorizonService {
 
 You can use it in your components like this
 ```typescript
+import { Component, OnInit } from '@angular/core';
+import { HorizonService } from './horizon.service';
+
 export class MyAppComponent implements OnInit {
   list = [];
   constructor(private horizonService: HorizonService) {}
