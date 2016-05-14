@@ -93,7 +93,7 @@ export class MyAppComponent implements OnInit {
   ngOnInit() {    
     this.horizonService.connect().then(()=> {      
       this.horizonService.horizon('my_table').watch().subscribe((result)=> {
-        console.log('result', result)
+        console.log('result', result);
         this.list = result; 
       });      
     });    
