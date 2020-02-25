@@ -12,30 +12,27 @@ brew update && brew install rethinkDB
 docker run -d -P --name rethink1 rethinkdb
 ```
 
-follow instructions to run rethinkDB as a service
+### Create a new Angular project
+```
+npm install -g @angular/cli
+ng new app
+cd app
+ng serve
+```
 
-Install horizon using Node.js
+### Install hz cli
 ```bash
 npm install -g horizon
 ```
 
-Install angular-cli
-```bash
-npm install @angular/cli -g
-```
-
-Create a new Angular project
-```
-ng new app
-```
-
-Create a new horizon project
+### Create a new horizon project
 ```bash
 hz init app2
 ```
+
 That will create the `app2/.hz` folder. Copy this folder into `app`
 ```
-mv app2/.hz app/
+mv app2/.hz app
 ```
 
 Go to the app/ directory
@@ -48,9 +45,9 @@ Install `concurrently`
 npm install concurrently --save-dev
 ```
 
-Edit the package.json file start script
+Edit the `package.json` file start script
 ```
-"start": "concurrently \"hz serve --dev\" \"ng server\" ",
+"start": "concurrently \"hz serve --dev\" \"ng serve\" ",
 ```
 
 Edit `src/index.html` and add this line to the `<head>` block
