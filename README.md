@@ -2,12 +2,12 @@
 Guide how to use RethinkDB, Horizon and Angular 2
 
 ## Mac OSX
-Install RethinkDB using [brew](http://brew.sh/)
+### Install RethinkDB using [brew](http://brew.sh/)
 ```bash
 brew update && brew install rethinkDB
 ```
 
-## Using docker
+### Using docker
 ```bash
 docker run -d -P --name rethink1 rethinkdb
 ```
