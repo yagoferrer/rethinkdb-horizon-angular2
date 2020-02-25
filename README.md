@@ -1,5 +1,5 @@
-# RethinkDB + Horizon + Angular2
-Guide how to use RethinkDB, Horizon and Angular 2
+# RethinkDB + Horizon + Angular 9
+Guide how to use RethinkDB, Horizon and Angular 9
 
 ## Mac OSX
 ### Install RethinkDB using [brew](http://brew.sh/)
@@ -7,7 +7,7 @@ Guide how to use RethinkDB, Horizon and Angular 2
 brew update && brew install rethinkDB
 ```
 
-### Using docker
+### Using Docker
 ```bash
 docker run -d -P --name rethink1 rethinkdb
 ```
@@ -24,7 +24,7 @@ Install angular-cli
 npm install -g angular-cli
 ```
 
-Create a new Angular 2 project
+Create a new Angular project
 ```
 ng new app
 ```
