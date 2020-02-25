@@ -21,7 +21,7 @@ npm install -g horizon
 
 Install angular-cli
 ```bash
-npm install -g angular-cli
+npm install @angular/cli -g
 ```
 
 Create a new Angular project
